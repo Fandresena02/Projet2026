@@ -44,7 +44,8 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            Letsss goooooo!!!
+            Letsss goooo!!!
+            J'organise un petit truc 😉
           </div>
         </>
       ) : (
@@ -62,7 +63,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Sophie pupuce, veux-tu être ma valentine?
+             Pupuce, veux-tu être ma valentine?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -79,6 +80,10 @@ export default function Page() {
               {noCount === 0 ? "Non" : getNoButtonText()}
             </button>
           </div>
+
+          <h8>
+             Explore toutes les options
+          </h8>
         </>
       )}
       <Footer />
